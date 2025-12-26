@@ -1,0 +1,10 @@
+// 文件相关API
+export const FileTree = (projectPath, dir) => window.go.main.App.FileTree(projectPath, dir)
+export const FileList = (projectPath, dir) => window.go.main.App.FileList(projectPath, dir)
+export const FileRead = (filePath) => window.go.main.App.FileRead(filePath)
+export const FileWrite = (filePath, content) => window.go.main.App.FileWrite(filePath, content)
+export const FileCreate = (filePath, isDir) => window.go.main.App.FileCreate(filePath, isDir)
+export const FileDelete = (filePath) => window.go.main.App.FileDelete(filePath)
+export const FileRename = (oldPath, newPath) => window.go.main.App.FileRename(oldPath, newPath)
+export const FileInfo = (filePath) => window.go.main.App.FileInfo(filePath)
+export const FileExists = (filePath) => window.go.main.App.FileExists(filePath)

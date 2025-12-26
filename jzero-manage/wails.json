@@ -8,5 +8,6 @@
   "author": {
     "name": "段玉威",
     "email": "duanyw@myibc.net"
-  }
+  },
+  "frontendDirectory": "./frontend"
 }

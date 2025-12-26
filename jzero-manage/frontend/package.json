@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@monaco-editor/loader": "^1.7.0",
+    "@vicons/material": "^0.13.0",
+    "monaco-editor": "^0.55.1",
+    "pinia": "^3.0.4",
     "vue": "^3.2.25"
   },
   "devDependencies": {
